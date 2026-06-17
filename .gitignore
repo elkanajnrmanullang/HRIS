@@ -1,0 +1,109 @@
+# Environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+firebase-service-account.json
+google-vision-service-account.json
+djp-cert.p12
+*service-account*.json
+
+# Go Backend
+backend/bin/
+backend/dist/
+backend/tmp/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+backend/vendor/
+tmp/
+*.coverprofile
+coverage.out
+coverage.html
+
+# Next.js Frontend
+frontend/node_modules/
+node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/dist/
+frontend/.cache/
+frontend/.turbo/
+frontend/*.tsbuildinfo
+frontend/next-env.d.ts
+
+# Docker
+postgres_data/
+mongodb_data/
+redis_data/
+rabbitmq_data/
+minio_data/
+data/
+docker-compose.override.yml
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json.example
+
+# JetBrains
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Vim
+*.swp
+*.swo
+*~
+.netrwhist
+
+# Emacs
+*#
+.#*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Logs
+*.log
+logs/
+log/
+*.pid
+
+# Testing
+coverage/
+*.cover
+test-results/
+junit.xml
+
+# Storage
+uploads/
+storage/
+public/uploads/
+
+# Misc
+*.bak
+*.tmp
+*.temp
+.cache/

@@ -1,0 +1,14 @@
+# Binary & build
+bin/
+dist/
+tmp/
+*.exe
+*.out
+
+# Air hot reload
+tmp/
+
+# Test coverage
+coverage.out
+coverage.html
+*.coverprofile
